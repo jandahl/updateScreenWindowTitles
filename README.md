@@ -1,4 +1,4 @@
 usefulssh
 =========
 
-ssh in byobu/screen 
+Make `ssh` more useful in byobu/screen 
