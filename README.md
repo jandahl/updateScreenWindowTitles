@@ -1,11 +1,13 @@
-usefulssh
+updateScreenWindowTitles
 =========
 
 Make `ssh` and `telnet` more useful in byobu/screen 
 
 Usage:
 
-Save file.
+Save files to `~/bin`. If necessary, create directory first:
+
+    mkdir ~/bin
 
 Make aliases in a dotfile á la
 
@@ -15,6 +17,9 @@ Make aliases in a dotfile á la
 
     alias ssh='~/bin/ss.sh'
     alias telnet='~/bin/telnet.sh'
-    "
+    ##
+    " >> ~/.bashrc
+
+(That is, assuming you are using `bash` - if you're not, you probably already know what to do)
 
 Presto.
