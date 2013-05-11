@@ -1,7 +1,7 @@
 updateScreenWindowTitles
 =========
 
-Make `ssh` and `telnet` more useful in byobu/screen 
+Make `ssh` and `telnet` more useful in byobu/screen. The scripts rely on [`$STY`](http://www.gnu.org/software/screen/manual/html_node/Environment.html) being set by the pseudoterminal.
 
 Usage:
 
