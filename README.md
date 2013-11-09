@@ -23,3 +23,7 @@ Make aliases in a dotfile á la
 (That is, assuming you are using `bash` - if you're not, you probably already know what to do)
 
 Presto.
+
+Note: If they don't want to run try setting their Executable bits:
+
+    chmod +x ~/bin/ss.sh ~/bin/tn.sh
