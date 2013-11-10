@@ -1,7 +1,7 @@
 updateScreenWindowTitles
 =========
 
-Make `ssh` and `telnet` more useful in [`GNU screen`](http://www.gnu.org/software/screen/ "GNU Screen project home page")/[`byobu`](https://help.ubuntu.com/10.04/serverguide/byobu.html "Ubuntu documentation of byobu"). The scripts rely on [`$STY`](http://www.gnu.org/software/screen/manual/html_node/Environment.html "$STY environment variable") being set in the pseudoterminal.
+Make `ssh` and `telnet` more useful in [`GNU screen`](http://www.gnu.org/software/screen/ "GNU Screen project home page")/[`byobu`](https://help.ubuntu.com/10.04/serverguide/byobu.html "Ubuntu documentation of byobu")/[`tmux`](http://tmux.sourceforge.net "tmux homepage"). The scripts rely on [`$STY`](http://www.gnu.org/software/screen/manual/html_node/Environment.html "$STY environment variable") being set in the pseudoterminal.
 
 Usage:
 
