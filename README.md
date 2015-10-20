@@ -11,14 +11,14 @@ Save files to `~/bin`. If necessary, create directory first:
 
 Make aliases in a dotfile á la
 
-    echo "
+    cat << EOF >> ~/.bashrc
     ## Below aliases that hijack 'telnet' and 'ssh' to make 'screen' or 'byobu' update
     ## with hostname of the device you're trying to reach
 
     alias ssh='~/bin/ss.sh'
     alias telnet='~/bin/tn.sh'
     ##
-    " >> ~/.bashrc
+    EOF
 
 (That is, assuming you are using `bash` - if you're not, you probably already know what to do)
 
