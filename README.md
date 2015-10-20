@@ -7,7 +7,7 @@ Usage:
 
 Save files to `~/bin`. If necessary, create directory first:
 
-    mkdir ~/bin
+    mkdir -p ~/bin
 
 Make aliases in a dotfile á la
 
